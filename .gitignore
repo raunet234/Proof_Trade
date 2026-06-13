@@ -9,3 +9,4 @@ data/trades.json
 .agent-data/
 ~/.bnbagent/
 .pytest_cache/
+build/
