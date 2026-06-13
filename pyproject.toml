@@ -1,0 +1,22 @@
+[project]
+name = "prooftrade"
+version = "0.1.0"
+description = "Prop-firm-style autonomous crypto trading agent on BSC"
+requires-python = ">=3.10"
+dependencies = [
+    "bnbagent",
+    "anthropic",
+    "httpx",
+    "python-dotenv",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-mock",
+]
+
+[project.scripts]
+prooftrade = "src.main:main"

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+dist/
+*.egg-info/
+data/trades.json
+.agent-data/
+~/.bnbagent/
+.pytest_cache/
